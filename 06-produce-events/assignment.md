@@ -1,11 +1,12 @@
 ---
 slug: produce-events
+id: xris37syz5db
 type: challenge
 title: Produce Events
-teaser: A short description of the challenge.
+teaser: Produce events to the Kafka topic 
 notes:
 - type: text
-  contents: Replace this text with your own text
+  contents: Another 101 video and text 
 tabs:
 - title: Terminal
   type: terminal

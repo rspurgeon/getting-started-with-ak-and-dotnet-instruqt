@@ -1,11 +1,12 @@
 ---
 slug: build-producer
+id: k3bkwmqzzshh
 type: challenge
 title: Build Producer
-teaser: A short description of the challenge.
+teaser: Create a C# producer application 
 notes:
 - type: text
-  contents: Replace this text with your own text
+  contents: Video of Tim talking about producers 
 tabs:
 - title: Terminal
   type: terminal

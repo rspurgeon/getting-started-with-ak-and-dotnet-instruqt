@@ -1,11 +1,12 @@
 ---
 slug: create-topic
+id: yzsouchvmttl
 type: challenge
 title: Create topic
-teaser: A short description of the challenge.
+teaser: Use the Confluent CLI to create a new Kafka Topic 
 notes:
 - type: text
-  contents: Replace this text with your own text
+  contents: Video of Tim talking about topics 
 tabs:
 - title: Terminal
   type: terminal

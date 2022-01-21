@@ -1,11 +1,12 @@
 ---
 slug: build-consumer
+id: tq0ydnudx7ls
 type: challenge
 title: Build Consumer
-teaser: A short description of the challenge.
+teaser: Create a .NET consumer application 
 notes:
 - type: text
-  contents: Replace this text with your own text
+  contents: A video of Tim talking about consumers 
 tabs:
 - title: Terminal
   type: terminal
