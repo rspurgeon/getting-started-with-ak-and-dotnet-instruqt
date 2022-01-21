@@ -6,6 +6,7 @@ Note: This repository brings in the existing Confluent Developer getting started
 
 ```
 git clone https://github.com/rspurgeon/getting-started-with-ak-and-dotnet-instruqt.git
+cd getting-started-with-ak-and-dotnet-instruqt
 git submodule init
-git sobmodule update
+git submodule update
 ```

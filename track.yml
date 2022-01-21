@@ -1,15 +1,17 @@
 slug: getting-started-with-apache-kafka-and-net
 type: track
-title: Getting Started with Apache Kafka and .NET
-teaser: A short description of the track.
+title: Getting Started with Apache Kafka, .NET, and Confluent Cloud
+teaser: Step-by-step guide to building a .NET client application for Kafka
 description: |-
-  A long description of the track.
+  In this tutorial, you will build C# client applications which produce and consume messages from an Apache Kafka® cluster on Confluent Cloud
 
-  You can use any GitHub flavoured markdown.
-icon: https://storage.googleapis.com/instruqt-frontend/img/tracks/default.png
+  If you do not already have an account, be sure to sign up at https://www.confluent.io/confluent-cloud/tryfree/. New signups receive $400 to spend within Confluent Cloud during their first 60 days.
+
+  Note: This tutorial focuses on a simple application to get you started. If you want to build more complex applications and microservices for data in motion—with powerful features such as real-time joins, aggregations, filters, exactly-once processing, and more—check out the [Kafka Streams 101 course](https://developer.confluent.io/learn-kafka/kafka-streams/get-started/), which covers the Kafka Streams client library on [Confluent Developer](https://developer.confluent.io/)
+icon: https://images.ctfassets.net/gt6dp23g0g38/2pFnsCQvLfJ41E1S5iBtIx/f2f81660fa4b18c89ffd12fe7b7e5626/20200122-PNG-confluent_logo-mark-denim.png
 tags: []
 owner: confluent
 developers:
 - rspurgeon@confluent.io
-private: false
+private: true
 published: false
