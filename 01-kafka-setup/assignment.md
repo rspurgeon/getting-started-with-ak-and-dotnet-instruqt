@@ -24,9 +24,9 @@ Start Apache Kafka® the easiest, fastest way possible using Confluent Cloud in 
 
 If you do not already have an account, head over to the [Confluent Cloud](https://www.confluent.io/confluent-cloud/tryfree/) signup page and use the promo code `KAFKA101` for $101 of additional free usage.
 
-We are going to need a Kafka Cluster for our client application to operate with. We can provision a cluster in a few ways, for this exercise we will provision one using the `confluent` CLI which is already installed for you here. Another option is to use the [Confluent Cloud web console](https://confluent.cloud/) which provides a point and click experience.
+We are going to want a Kafka Cluster for our client application to operate with. We can provision a cluster in a few ways, for this exercise we will provision one using the `confluent` CLI which is already installed for you in this terminal. Another option is to use the [Confluent Cloud web console](https://confluent.cloud/) which provides a point and click experience.
 
-Developers love the command line, so let's focus there. First login to your account using the `confluent` CLI:
+Being the 10x developer you are, let's use the command line. First login to your account using the `confluent` CLI:
 
 ```
 confluent login
@@ -46,7 +46,7 @@ You will see something similiar to:
 +------------------+------------------------+
 ```
 
-Next, set the current environment context of the CLI by using the new environment (substituted your environment ID:
+Next, set the current environment context of the CLI by using the new environment, be sure to substitute your environment ID:
 
 ```
 confluent environment use <environment-id>
@@ -79,7 +79,7 @@ It may take up to 5 minutes for the Kafka cluster to be ready.
 +--------------+-----------------------------------------------------------+
 ```
 
-Similar to the new environment, let's set the new Kafka cluster as the current cluster context in the CLI which will make working w/ the new cluster easier in subsequent steps (be sure to use your cluster Id in the following command):
+Take note of the `Id` field, this is the Kafka cluster Id. Similar to the new environment step above, let's set the new Kafka cluster as the current cluster context in the CLI. This will make working with the new cluster easier in subsequent steps (be sure to use your cluster Id in the following command):
 
 ```
 confluent kafka cluster use <cluster-id>
