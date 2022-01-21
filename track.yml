@@ -1,0 +1,15 @@
+slug: getting-started-with-apache-kafka-and-net
+type: track
+title: Getting Started with Apache Kafka and .NET
+teaser: A short description of the track.
+description: |-
+  A long description of the track.
+
+  You can use any GitHub flavoured markdown.
+icon: https://storage.googleapis.com/instruqt-frontend/img/tracks/default.png
+tags: []
+owner: confluent
+developers:
+- rspurgeon@confluent.io
+private: false
+published: false

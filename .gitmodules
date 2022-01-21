@@ -1,0 +1,3 @@
+[submodule "getting-started-guides"]
+	path = getting-started-guides
+	url = https://github.com/confluentinc/getting-started-guides.git
