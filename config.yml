@@ -3,3 +3,5 @@ containers:
 - name: terminal
   image: rickspurgeon/getting-started-with-ak-and-dotnet-instruqt:latest
   memory: 2000
+  ports:
+  - 8080
