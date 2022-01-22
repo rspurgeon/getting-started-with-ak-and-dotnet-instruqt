@@ -91,7 +91,7 @@ sasl.username=AABBCCDDEEFFGGHH
 sasl.password=abbCkB9zAe8xQ9MSMRl4ZQmslRx2uIAgcsOJBOwQw/TXcN9ULsV8267bFWlHf8AX
 ```
 
-Be sure to click the Save icon on the editor tab after making your changes. 
+Be sure to click the Save icon on the editor tab after making your changes.
 
 Great, we've written our configuration file! In the next challenge we will begin developing and running our applications.
 

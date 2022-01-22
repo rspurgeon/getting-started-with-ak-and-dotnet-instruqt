@@ -5,6 +5,8 @@ type: challenge
 title: Build Producer
 teaser: Create a C# producer application
 notes:
+- type: text
+  contents: |-
     # Apache Kafka® Producers
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/I7zm3on_cQQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -32,7 +34,7 @@ IConfiguration configuration = new ConfigurationBuilder()
             .Build();
 ```
 
-Next let's look at the construction of a producer. This line passes the `configuration` instance into the `ProducerBuilder`. The type definition of the `ProducerBuilder` defines what type of events can be produced by this `producer` instance. 
+Next let's look at the construction of a producer. This line passes the `configuration` instance into the `ProducerBuilder`. The type definition of the `ProducerBuilder` defines what type of events can be produced by this `producer` instance.
 
 ```
 using (var producer = new ProducerBuilder<string, string>(

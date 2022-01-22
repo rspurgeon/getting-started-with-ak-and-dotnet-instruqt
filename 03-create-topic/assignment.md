@@ -5,6 +5,8 @@ type: challenge
 title: Create topic
 teaser: Use the Confluent CLI to create a new Kafka Topic
 notes:
+- type: text
+  contents: |-
     # Apache Kafka® Topics
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/kj9JH3ZdsBQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -35,9 +37,9 @@ confluent environment list
 You should see something like the following report (note the `*`):
 
 ```
-      ID      |          Name            
+      ID      |          Name
 --------------+--------------------------
-    t20996    | default                  
+    t20996    | default
   * env-vd5vn | getting-started-dotnet
 ```
 
@@ -50,9 +52,9 @@ confluent kafka cluster list
 You will see a report like the following. Ensure you're using the proper cluster, and if you need to change the current cluster, use `confluent kafka cluster use`:
 
 ```
-      Id      |  Name  | Type  | Provider |   Region    | Availability | Status  
+      Id      |  Name  | Type  | Provider |   Region    | Availability | Status
 --------------+--------+-------+----------+-------------+--------------+---------
-  * lkc-6jm06 | dotnet | BASIC | gcp      | us-central1 | single-zone  | UP      
+  * lkc-6jm06 | dotnet | BASIC | gcp      | us-central1 | single-zone  | UP
 ```
 
 Now our CLI is in the proper context, we can proceed with creating our topic.  We are going to create a topic called `purchases` with 1 partition. For more information on partitions and other options to this command, run `confluent kafka topic create --help`:
