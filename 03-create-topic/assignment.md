@@ -7,7 +7,7 @@ teaser: Use the Confluent CLI to create a new Kafka Topic
 notes:
     # Apache Kafka® Topics
 
-		<iframe width="560" height="315" src="https://www.youtube.com/embed/kj9JH3ZdsBQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/kj9JH3ZdsBQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
     The video above examines Kafka Topics. When the environment for this challenge is ready, a Start button will be available in the bottom right corner of the browser.
 tabs:

@@ -7,7 +7,7 @@ teaser: Create a C# producer application
 notes:
     # Apache Kafka® Producers
 
-		<iframe width="560" height="315" src="https://www.youtube.com/embed/I7zm3on_cQQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/I7zm3on_cQQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
     The video above examines Kafka Producers. When the environment for this challenge is ready, a Start button will be available in the bottom right corner of the browser.
 tabs:
@@ -43,7 +43,7 @@ Finally let's look at the code which actually produces the event:
 
 ```
 producer.Produce(topic, new Message<string, string> { Key = user, Value = item },
-	...
+  ...
 ```
 
 Here, the `producer` instance is instructed to send a new event with a key and a value specified int he function paramters to `Produce`.
