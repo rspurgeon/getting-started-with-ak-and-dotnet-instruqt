@@ -6,7 +6,7 @@ title: Consume Events
 teaser: A short description of the challenge.
 notes:
 - type: text
-  contents: Another 101 video 
+  contents: Another 101 video
 tabs:
 - title: Terminal
   type: terminal

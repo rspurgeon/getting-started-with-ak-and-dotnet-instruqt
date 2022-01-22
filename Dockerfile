@@ -3,8 +3,7 @@ FROM mcr.microsoft.com/dotnet/sdk:6.0-alpine
 
 RUN apk update --no-cache && \
     apk add --no-cache curl && \
-    apk add --no-cache bash && \
-    apk add --no-cache bash-completion
+		apk add librdkafka-dev
 
 RUN curl -L --http1.1 https://cnfl.io/cli | sh -s -- -b /bin
 

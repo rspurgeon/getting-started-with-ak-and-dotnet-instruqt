@@ -67,7 +67,7 @@ Your output will look similar to the following, take note of the `Endpoint` valu
 Next, let's create an API key to use in our client application. Using the Kafka cluster Id from the output, run the following:
 
 ```
-confluent api-key create --resource lkc-yzr27
+confluent api-key create --resource <cluster-id>
 ```
 
 The CLI will print out the new API Key and Secret, take note of these values. These values are secret and provide full access to your cluster. You should protect these values like you would any other credential.
@@ -91,6 +91,6 @@ sasl.username=AABBCCDDEEFFGGHH
 sasl.password=abbCkB9zAe8xQ9MSMRl4ZQmslRx2uIAgcsOJBOwQw/TXcN9ULsV8267bFWlHf8AX
 ```
 
-Great, we've written our configuration value! In the next challenge we will begin developing and running our applications.
+Great, we've written our configuration file! In the next challenge we will begin developing and running our applications.
 
 Click Check below to proceed...
