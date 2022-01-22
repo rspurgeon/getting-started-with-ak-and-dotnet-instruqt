@@ -70,7 +70,7 @@ Next, let's create an API key to use in our client application. Using the Kafka 
 confluent api-key create --resource <cluster-id>
 ```
 
-The CLI will print out the new API Key and Secret, take note of these values. These values are secret and provide full access to your cluster. You should protect these values like you would any other credential.
+The CLI will print out the new API Key and Secret, take note of these values. If you want to use your cluster after this excercise, you should save these values before closing this challenge. These values are secret and provide full access to your cluster. You should protect these values like you would any other credential.
 
 ```
 It may take a couple of minutes for the API key to be ready.
@@ -84,12 +84,14 @@ Save the API key and secret. The secret is not retrievable later.
 Now, with these three values collected (the endpoint, the Key, and the secret), open the `IDE` editor to the left and open the `getting-started-cloud.properties` file and fill in the values in the appropriate line. Remember, `bootstrap.servers` equals `Endpoint`. Also, `sasl.username` and `sasl.password` are the API key and secret. It should look like this:
 
 ```
-bootstrap.servers=SASL_SSL://pkc-abc12.us-central1.gcp.confluent.cloud:9092
+bootstrap.servers=pkc-abc12.us-central1.gcp.confluent.cloud:9092
 security.protocol=SASL_SSL
 sasl.mechanisms=PLAIN
 sasl.username=AABBCCDDEEFFGGHH
 sasl.password=abbCkB9zAe8xQ9MSMRl4ZQmslRx2uIAgcsOJBOwQw/TXcN9ULsV8267bFWlHf8AX
 ```
+
+Be sure to click the Save icon on the editor tab after making your changes. 
 
 Great, we've written our configuration file! In the next challenge we will begin developing and running our applications.
 
