@@ -9,7 +9,7 @@ notes:
   contents: |-
     # Apache Kafka® Consumers
 
-		<iframe width="560" height="315" src="https://www.youtube.com/embed/Z9g4jMQwog0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Z9g4jMQwog0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
     The video above examines Kafka Consumers. When the environment for this challenge is ready, a Start button will be available in the bottom right corner of the browser.
 tabs:
@@ -65,7 +65,7 @@ try {
 }
 ```
 
-Here, the `consumer` instance is instructed to subscribe to the topic passed into the `Subscribe` routine. This, combined with the `group.id` configuration value above, determines where in the topic the consumer will start consuming. 
+Here, the `consumer` instance is instructed to subscribe to the topic passed into the `Subscribe` routine. This, combined with the `group.id` configuration value above, determines where in the topic the consumer will start consuming.
 
 Finally, the `consumer.Close();` function instructs the consumer to stop consuming and close the connection to the cluster.
 
