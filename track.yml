@@ -15,5 +15,5 @@ owner: confluent
 developers:
 - rspurgeon@confluent.io
 private: true
-published: false
-checksum: "2682270237207465634"
+published: true
+checksum: "848238679855332533"
