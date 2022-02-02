@@ -5,7 +5,7 @@ RUN apk update --no-cache && \
     apk add --no-cache curl && \
 		apk add librdkafka-dev
 
-RUN curl -sL --http1.1 https://cnfl.io/cli | sh -s -- -b /bin v2.3.1
+RUN curl -sL --http1.1 https://cnfl.io/cli | sh -s -- -b /bin v2.4.0
 
 RUN chmod +x /bin/confluent
 

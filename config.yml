@@ -1,7 +1,7 @@
 version: "3"
 containers:
 - name: terminal
-  image: rickspurgeon/getting-started-with-ak-and-dotnet-instruqt:6.0_2.3.1
+  image: rickspurgeon/getting-started-with-ak-and-dotnet-instruqt:6.0_2.4.0
   ports:
   - 8080
   memory: 2000
